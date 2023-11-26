@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>index</title>
-        <style>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <style>
         /* Reset default styles */
 * {
   margin: 0;
@@ -20,13 +20,12 @@ body {
     box-shadow: inset  0 0 1000px rgba(0, 0, 0, 0.7);
     height: 100vh;
     width: 100%;
+  overflow-y: hidden;
 }
 /* Navbar styles */
 .navbar {
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
-  /* background-color: rgba(255, 255, 255, 0.8); */
   padding: 10px;
   width: 100%;
 }
@@ -113,12 +112,8 @@ width: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  position: absolute;
+  /* position: absolute; */
+  height: 100vh;  
  }
  
  .content {
@@ -133,7 +128,7 @@ width: 40px;
 
  .content .btn-content button {
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 18px;
   background: rgb(153,29,253);
 background: linear-gradient(10deg, rgba(153,29,253,1) 0%, rgba(253,29,29,1) 32%, rgba(255,186,88,1) 100%);
   color: #fff;
@@ -143,41 +138,41 @@ background: linear-gradient(10deg, rgba(153,29,253,1) 0%, rgba(253,29,29,1) 32%,
  }
 
     </style>
-    </head>
-    <body>
-        <!-- nav bar -->
-        <nav class="navbar">
-            <div class="logo">
-                <img src="tinder.png" alt="Logo">
-                <h1><strong>tinder</strong></h1>
-            </div>
-            <ul class="menu">
-                <li><a href="#">ผลิตภัณฑ์</a></li>
-                <li><a href="#">เรียนรู้เพิ่มเติม</a></li>
-                <li><a href="#">ความปลอดภัย</a></li>
-                <li><a href="#">บริการช่วยเหลือ</a></li>
-                <li><a href="#">ดาวน์โหลด</a></li>
-                <li><a href="#">บัตรของขวัญ</a></li>
-            </ul>
-            <div class="menu-left">
-                <button class="btn-lan">
-                    <sup><img src="language.png" alt="la"></sup>
-                    ภาษา
-                </button>
-                <button class="btn">เข้าสู่ระบบ</button>
-            </div>
-        </nav>
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav class="navbar">
+      <div class="logo">
+        <img src="tinder.png" alt="Logo">
+        <h1><strong>tinder</strong></h1>
+      </div>
+      <ul class="menu">
+        <li><a href="#">ผลิตภัณฑ์</a></li>
+        <li><a href="#">เรียนรู้เพิ่มเติม</a></li>
+        <li><a href="#">ความปลอดภัย</a></li>
+        <li><a href="#">บริการช่วยเหลือ</a></li>
+        <li><a href="#">ดาวน์โหลด</a></li>
+        <li><a href="#">บัตรของขวัญ</a></li>
+      </ul>
+      <div class="menu-left">
+        <button class="btn-lan">
+          <sup><img src="language.png" alt="la"></sup>
+          ภาษา
+        </button>
+        <button class="btn">เข้าสู่ระบบ</button>
+      </div>
+    </nav>
 
-        <div class="container">
-            <div class="content">
-                <div class="text">
-                    <h1>ปัดขวา</h1>
-                </div>
-                <div class="btn-content">
-                    <button>สร้างบัญชี</button>
-                </div>
-            </div>
+    <div class="container">
+      <div class="content">
+        <div class="text">
+          <h1>ปัดขวา</h1>
         </div>
+        <div class="btn-content">
+          <button>สร้างบัญชี</button>
+        </div>
+      </div>
+    </div>
 
-    </body>
+  </body>
 </html>
