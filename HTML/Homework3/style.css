@@ -392,53 +392,6 @@ option {
 
 
 /* responsive */
-
-/* Your existing styles here */
-
-/* New styles for responsive design */
-@media screen and (max-width: 810px) {
-
-    .menu {
-        display: none;
-    }
-
-    nav .menu-toggle {
-        display: block;
-        cursor: pointer;
-        padding: 10px;
-
-    }
-
-    nav .menu-toggle i {
-        font-size: 24px;
-
-    }
-
-    nav {
-        flex-direction: column;
-        align-items: flex-start;
-        display: flex;
-    }
-
-    nav .logo {
-        order: 1;
-    }
-
-    nav .menu-toggle {
-        order: 2;
-    }
-
-    .active {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        width: 100%;
-        height: 100%;
-    }
-
-
-}
-
 @media screen and (max-width: 768px) {
 
     body {
