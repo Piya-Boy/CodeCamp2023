@@ -30,11 +30,13 @@ const validateInput = (inputObj) => {
 
   if (password.includes(" ") || password.trim() ==="") {
     loginForm.password.style.borderColor = "red";
+    loginForm.username.style.borderColor = "none";
     return;
   }
 
   if (role.trim() === "") {
     loginForm.role.style.borderColor = "red";
+    loginForm.password.style.borderColor = "none";
     return;
   }
   alert('Username: ' + username + '\nPassword: ' + password + '\nRole: ' + role + '\n' + '\nกด OK ไปที่เว็บไซต์ : example.com');
