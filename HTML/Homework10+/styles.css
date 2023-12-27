@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+
+h1,h3{
+    text-align: center;
+}
+
+.user{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+
+}
+
+table,th,td{
+    width: 50%;
+    border: 1px solid black;
+}
+
+tr{
+    cursor: pointer;
+}
+
+.post-item {
+    border: 3px dashed chocolate;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.post-info {
+    /* padding: 20px; */
+    margin: 25px;
+}
