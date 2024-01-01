@@ -1,13 +1,15 @@
 {
+  "homepage": "https://piya-boy.github.io/CodeCamp2023/React/Homework12/",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
    "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "webpack --mode production"
   },
-
   "devDependencies": {
     "@babel/core": "^7.23.6",
     "@babel/preset-env": "^7.23.6",
